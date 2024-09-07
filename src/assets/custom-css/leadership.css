@@ -1,0 +1,119 @@
+.leadership__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  gap: 40px;
+}
+
+.no__img {
+  height: 240px;
+}
+
+@media screen and (max-width: 1090px) {
+  .leadership__grid {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .leadership__grid {
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+  }
+  .no__img {
+    height: 218px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 220px);
+  }
+  .no__img {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+  }
+  .no__img {
+    height: 218px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 180px);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 170px);
+  }
+  .no__img {
+    height: 185.453px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 160px);
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 174.531px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .leadership__grid {
+    grid-template-columns: repeat(3, 150px);
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 163.625px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .leadership__grid {
+    grid-template-columns: repeat(2, 220px);
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .leadership__grid {
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 218.172px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .leadership__grid {
+    grid-template-columns: repeat(2, 170px);
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 185.453px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .leadership__grid {
+    grid-template-columns: 1fr;
+    gap: 20px 10px;
+  }
+  .no__img {
+    height: 360px;
+  }
+}

@@ -1,0 +1,80 @@
+.enclosures__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(4, 230px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(3, 270px);
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(3, 230px);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 280px);
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 260px);
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 230px);
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .enclosures__grid {
+    grid-template-columns: repeat(2, 180px);
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .enclosures__grid {
+    grid-template-columns: 1fr;
+  }
+}

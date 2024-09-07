@@ -1,0 +1,102 @@
+.flippable-card {
+  perspective: 1000px;
+  height: 260px;
+}
+
+.flippable-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.flippable-card:hover .flippable-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flippable-card-front,
+.flippable-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flippable-card-front {
+  background-color: #fff;
+  color: black;
+}
+
+.flippable-card-back {
+  background-color: #eee;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.cable__management__grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .flippable-card {
+    height: 223px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .cable__management__grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .flippable-card {
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flippable-card {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .flippable-card {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .flippable-card {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .flippable-card {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .flippable-card {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .flippable-card {
+    height: 307.797px;
+  }
+}

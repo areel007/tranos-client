@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .industries__slider {
+    max-width: 618px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 892px) {
+  .industries__slider {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .industries__slider {
+    max-width: 412px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 493px) {
+  .industries__slider {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .industry__card__image {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .industries__slider {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .industry__card__image {
+    width: 100%;
+  }
+}
+
+.ul-tranos-elite ul {
+  margin-left: 20px;
+  list-style: disc !important;
+  font-weight: 300;
+}
